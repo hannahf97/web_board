@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'KOTRAHOPE';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2')
+		format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	font-family: 'KOTRAHOPE';
+	color: #414042;
+}
+
+body {
+	background-color: #008BB7 !important;
+}
+
+.contain {
+	margin: 15%;
+}
+
+.col {
+	width: 50% !important;
+}
+
+.card {
+	box-shadow: 2px 2px 2px 2px #057598;
+	margin-Top: 2em;
+	border-radius: 35px !important;
+}
+
+input[type=checkbox]{
+	margin-left: 2%;
+}
+
+input[type=text], input[type=password], input[type=submit], input[type=date]{
+	border-radius: 50px !important;
+	margin-left: 1% !important;
+	margin-right: 1% !important;
+	width: 80% !important;
+	outline: 1px solid #BCBEC0;
+}
+
+::placeholder {
+	color: #BCBEC0;
+}
+
+form {
+	padding: 1.3em;
+	margin: 0.5em;
+	size: 3em;
+}
+
+button {
+	margin-left: 2%;
+	width: 80%;
+}
+
+.btn {
+	padding: 0.5em !important;
+	margin-Top: 2em;
+	border-radius: 40px !important;
+	background-color: #A93159 !important;
+	color: #ffffff !important;
+}
+
+.gotoAccount {
+	margin-Top: 2em;
+}
+.form-group{
+	margin-left: 3em;
+	margin-right: 3em;
+	margin: 0 auto;
+	
+}
+
+.login-form{
+	margin: 2em 1em 1em 1em;
+	
+}
+
+img {
+	position: relative;
+	margin-left: 10%;
+	padding: 0px;
+	float: right;
+	height : 100%; 
+	width: auto;
+}
+
+.contents{
+	margin: 2em;
+	padding: 10px;
+	
+}
+
+.write{
+	margin-bottom: 2em;
+}
+
+p#idcheck{
+	display: inline !important;
+	margin:2em;
+	width: 30px;
+}
